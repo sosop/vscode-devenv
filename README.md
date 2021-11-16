@@ -54,3 +54,79 @@ gocomplete -install # 输入y安装
 ```
 
 ![image-20211116144823774](./image-20211116144823774.png)
+
+- settings.json配置
+
+```json
+"go.goroot": "",
+"go.gopath": "",
+"go.inferGopath": true,
+"go.autocompleteUnimportedPackages": true,
+"go.gocodePackageLookupMode": "go",
+"go.gotoSymbol.includeImports": true,
+"go.useCodeSnippetsOnFunctionSuggest": true,
+"go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+```
+
+
+
+## rust
+
+### 安装rust
+
+[参考](https://www.rust-lang.org/zh-CN/tools/install)
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### vscode 安装插件
+
+[参考](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+
+- ctrl+p，输入ext install rust-lang.rust
+- 安装
+
+![image-20211116151339874](./image-20211116151339874.png)
+
+## Python
+
+### vscode 安装插件
+
+- Ctrl+shift+x，输入python
+
+![image-20211116152430446](./image-20211116152430446.png)
+
+- 代码补齐pylance
+
+![image-20211116153041828](./image-20211116153041828.png)
+
+### 格式化代码
+
+```shell
+pip install yapf
+```
+
+- settings.json中添加
+
+```json
+"python.formatting.provider": "yapf"
+```
+
+- 快捷键 Alt+Shift+F
+
+### Better Comments插件
+
+### [python 安裝參考](https://github.com/sosop/useage-pyenv-virtualenv)
+
+## Java
+
+### java 安裝
+
+![image-20211116155849230](./image-20211116155849230.png)
+
+### vscode 安裝插件
+
+- Ctrl+shift+x，輸入Java安裝
+
+![image-20211116160045270](./image-20211116160045270.png)
